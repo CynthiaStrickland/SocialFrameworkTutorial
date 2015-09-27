@@ -14,6 +14,7 @@
 		3D8673151BB7827B00B04A97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8673131BB7827B00B04A97 /* LaunchScreen.storyboard */; };
 		3D8673201BB7827B00B04A97 /* AppCodaSocialFrameworkTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D86731F1BB7827B00B04A97 /* AppCodaSocialFrameworkTutorialTests.swift */; };
 		3D86732B1BB7827B00B04A97 /* AppCodaSocialFrameworkTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D86732A1BB7827B00B04A97 /* AppCodaSocialFrameworkTutorialUITests.swift */; };
+		3D8673391BB784A000B04A97 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8673381BB784A000B04A97 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3D8673261BB7827B00B04A97 /* AppCodaSocialFrameworkTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppCodaSocialFrameworkTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D86732A1BB7827B00B04A97 /* AppCodaSocialFrameworkTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCodaSocialFrameworkTutorialUITests.swift; sourceTree = "<group>"; };
 		3D86732C1BB7827B00B04A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D8673381BB784A000B04A97 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D8673391BB784A000B04A97 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		3D8672FE1BB7827B00B04A97 = {
 			isa = PBXGroup;
 			children = (
+				3D8673381BB784A000B04A97 /* Social.framework */,
 				3D8673091BB7827B00B04A97 /* AppCodaSocialFrameworkTutorial */,
 				3D86731E1BB7827B00B04A97 /* AppCodaSocialFrameworkTutorialTests */,
 				3D8673291BB7827B00B04A97 /* AppCodaSocialFrameworkTutorialUITests */,
